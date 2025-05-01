@@ -23,3 +23,7 @@ uv add mcp-use
 uv add langchain-groq
 uv pip install fastembed
 uv run server/client.py
+
+
+## Docker commands
+docker build -t mcp-server .
